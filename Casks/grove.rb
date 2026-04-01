@@ -9,6 +9,8 @@ cask "grove" do
     sha256 "PLACEHOLDER_X64_SHA256"
   end
 
+  no_quarantine true
+
   name "Grove"
   desc "Git worktree launcher — pick a branch, open it in your IDE"
   homepage "https://github.com/ljwh1231/grove"
