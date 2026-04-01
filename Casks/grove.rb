@@ -3,7 +3,7 @@ cask "grove" do
 
   if Hardware::CPU.arm?
     url "https://github.com/ljwh1231/grove/releases/download/v#{version}/Grove-#{version}-arm64.zip"
-    sha256 "7ed9a1e56257c3df31a9780e7cbb2e0c8f15226fed34a7de63640afd60ff0fb8"
+    sha256 "8206dafc290253b2d65796430e5b3c5af765ee4b2adca07837d604b5858aa9f2"
   else
     url "https://github.com/ljwh1231/grove/releases/download/v#{version}/Grove-#{version}-x64.zip"
     sha256 "PLACEHOLDER_X64_SHA256"
