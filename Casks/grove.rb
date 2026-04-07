@@ -1,9 +1,9 @@
 cask "grove" do
-  version "0.1.0"
+  version "0.1.3"
 
   if Hardware::CPU.arm?
     url "https://github.com/ljwh1231/grove/releases/download/v#{version}/Grove-#{version}-arm64.zip"
-    sha256 "8206dafc290253b2d65796430e5b3c5af765ee4b2adca07837d604b5858aa9f2"
+    sha256 "a437abf7ccdab4d409652971273daf52803e02e601fb266d2c23d6b6eabbf5a0"
   else
     url "https://github.com/ljwh1231/grove/releases/download/v#{version}/Grove-#{version}-x64.zip"
     sha256 "PLACEHOLDER_X64_SHA256"
